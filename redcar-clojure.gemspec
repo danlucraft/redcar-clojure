@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary     = "A Redcar plugin for Clojure development"
   s.description = ""
  
-  s.files        = Dir.glob("lib/**/*") + %w(README.md) + Dir.glob("vendor/*")
+  s.files        = Dir.glob("lib/**/*") + %w(README.md plugin.rb) + Dir.glob("vendor/*")
   s.executables  = []
   s.require_path = 'lib'
 end
